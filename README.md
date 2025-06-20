@@ -1,4 +1,4 @@
- # Document Analytics System
+![Screenshot 2025-06-18 182740](https://github.com/user-attachments/assets/222c8cf5-1bff-45c6-a770-31d7e24484d0) # Document Analytics System
 
 A Searching, sorting and classification of document collections cloud-based service. The project was done as an assignment of the Cloud and Distributed Systems course (SICT 4313) at the Islamic University of Gaza.
 
@@ -85,6 +85,9 @@ Add support to other document types (DOCX, TXT )
 
 ## Screenshots
 ![Screenshot 2025-06-18 182701](https://github.com/user-attachments/assets/5a9429b2-9d02-44ce-82bc-45c36762e6d1)
+![Screenshot 2025-06-18 182713](https://github.com/user-attachments/assets/79903062-2ac4-46f6-b8dc-265ef455f58c)
+![Screenshot 2025-06-18 182740](https://github.com/user-attachments/assets/07ce1485-fdbb-4354-aae4-f5f8f94fc91b)
+![Screenshot 2025-06-18 182754](https://github.com/user-attachments/assets/231d9cc2-ff60-4884-ab84-e7d570de0a6f)
 
 ## Author
 
