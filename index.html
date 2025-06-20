@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Document Analytics</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud Document Analytics System</h1>
+        
+        <div class="upload-section">
+            <h2>Upload Documents</h2>
+            <input type="file" id="fileInput" multiple accept=".pdf">
+            <button id="uploadBtn">Upload Files</button>
+            <div id="uploadProgress"></div>
+        </div>
+        
+        <div class="documents-section">
+            <h2>Stored Documents</h2>
+            <button id="sortBtn">Sort by Title</button>
+            <div id="documentsList"></div>
+        </div>
+        
+        <div class="search-section">
+            <h2>Search Documents</h2>
+            <input type="text" id="searchInput" placeholder="Enter search keywords...">
+            <button id="searchBtn">Search</button>
+            <div id="searchResults"></div>
+        </div>
+        
+        <div class="classify-section">
+            <h2>Classify Documents</h2>
+            <button id="classifyBtn">Classify</button>
+            <div id="classificationResults"></div>
+        </div>
+        
+        <div class="stats-section">
+            <h2>Statistics</h2>
+            <div id="statsInfo"></div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    
+    <!-- PDF.js for handling PDF files -->
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>

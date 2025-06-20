@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1 );
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #555;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .upload-section, .documents-section, .search-section, .classify-section, .stats-section {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  input[type="text"], input[type="file"] {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  a {
+    color: #4285f4;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  mark {
+    background-color: yellow;
+    padding: 2px;
+  }
+  
